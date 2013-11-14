@@ -10,6 +10,9 @@ source ~/.rvm/scripts/rvm
 export HISTFILESIZE=10000
 export HISTSIZE=10000
 
+# add android SDK
+export PATH=${PATH}:~/Developer/adt-bundle-mac-x86_64-20131030/sdk/platform-tools:~/Developer/adt-bundle-mac-x86_64-20131030/sdk/tools
+
 PATH="/usr/local/bin:/usr/local/sbin:$PATH"
 
 # Common junk
